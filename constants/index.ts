@@ -1,7 +1,7 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
+  { href: '/', key: 'how_we_work', label: 'How do we Work?' },
   { href: '/', key: 'services', label: 'Services' },
   { href: '/', key: 'pricing ', label: 'Pricing ' },
   { href: '/', key: 'contact_us', label: 'Contact Us' },
@@ -19,28 +19,28 @@ export const PEOPLE_URL = [
 export const FEATURES = [
   {
     title: 'Lose body fat',
-    icon: '/map.svg',
+    icon: '/logo-white.png',
     variant: 'green',
     description:
       'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
   },
   {
     title: 'Build muscle mass',
-    icon: '/calendar.svg',
+    icon: '/logo-white.png',
     variant: 'green',
     description:
       "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
   },
   {
     title: 'Be more energetic and healthy',
-    icon: '/tech.svg',
+    icon: '/logo-white.png',
     variant: 'green',
     description:
       'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
   },
   {
     title: 'Improve your digestive system',
-    icon: '/location.svg',
+    icon: '/logo-white.png',
     variant: 'orange',
     description:
       'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
@@ -52,7 +52,7 @@ export const FOOTER_LINKS = [
   {
     title: 'Learn More',
     links: [
-      'About Hilink',
+      'About Us',
       'Prices',
       'Contact Us',
     ],
@@ -76,8 +76,6 @@ export const SOCIALS = {
   links: [
     '/facebook.svg',
     '/instagram.svg',
-    '/twitter.svg',
     '/youtube.svg',
-    '/wordpress.svg',
   ],
 };

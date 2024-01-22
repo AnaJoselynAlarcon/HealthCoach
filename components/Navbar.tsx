@@ -24,8 +24,8 @@ const Navbar = () => {
       <div className="lg:flexCenter hidden">
         <Button
           type="button"
-          title="Login"
-          icon="/user.svg"
+          title="Get FREE Discovery Call"
+          icon="/wa_icon.png"
           variant="btn_dark_green"
         />
       </div>

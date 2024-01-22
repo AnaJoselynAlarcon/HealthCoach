@@ -5,7 +5,7 @@ const Guide = () => {
   return (
     <section className="flexCenter flex-col">
       <div className="padding-container max-container w-full pb-24">
-        <Image src="/camp.svg" alt="camp" width={50} height={50} />
+        <Image src="/logo-teal500.png" alt="camp" width={50} height={50} />
         <p className="uppercase regular-18 -mt-1 mb-3 text-green-50">
           I am here for you
         </p>
@@ -41,6 +41,7 @@ const Guide = () => {
               <div className="flexBetween w-full">
                 <p className="regular-16 text-gray-20">Sustitute</p>
                 <p className="bold-16 text-purple-600">5 min</p>
+                <p className="bold-16 text-orange-300">-300 kcal less</p>
               </div>
               <p className="bold-20 mt-2">Ice Cream</p>
             </div>

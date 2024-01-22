@@ -11,7 +11,7 @@ const Hero = () => {
           {/* This is where the image goes */}
           <Image
             src="/rd.jpeg"
-            alt="camp"
+            alt="Ana Joselyn Alarcon"
             width={50}
             height={50}
             className="relative z-20 w-[268px] rounded-3xl bg-teal-500 px-7 py-8"
@@ -45,13 +45,13 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-col w-full gap-3 sm:flex-row">
-          <Button type="button" title="Send me a message" variant="btn_green" />
-          <Button
-            type="button"
-            title="How to start?"
-            icon="/play.svg"
-            variant="btn_white_text"
-          />
+          <a href="https://wa.me/+14037144087" target="_blank" rel="noreferrer">
+            <Button
+              type="button"
+              title="Send me a message"
+              variant="btn_green"
+            />
+          </a>
         </div>
       </div>
 
@@ -67,12 +67,14 @@ const Hero = () => {
 
           <div className="flexBetween">
             <div className="flex flex-col">
-              <p className="regular-16 block text-gray-200">Distance</p>
-              <p className="bold-20 text-white">173.28 mi</p>
+              <p className="regular-16 block text-gray-200"></p>
+              <p className="bold-20 text-white">
+                Health & Fitness Coach, Tech Geek and Mom!
+              </p>
             </div>
-            <div className="flex flex-col">
-              <p className="regular-16 block text-gray-200">Elevation</p>
-              <p className="bold-20 text-white">2.040 km</p>
+            <div className="flex flex-col ml-10">
+              <p className="regular-16 block text-gray-200">Experience</p>
+              <p className="bold-20 text-white">5 years</p>
             </div>
           </div>
         </div>
