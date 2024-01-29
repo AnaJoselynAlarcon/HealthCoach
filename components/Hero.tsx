@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
       <div className="hero-map" />
 
-      <div className="bg-slate-500 p-9 relative z-20 flex flex-1 flex-col xl:w-1/2">
+      <div className="bg-slate-500 p-9 relative z-20 flex flex-1 flex-col xl:w-1/2 rounded-2xl">
         <div className="relative flex flex-1 items-start">
           {/* This is where the image goes */}
           <Image
@@ -14,7 +14,7 @@ const Hero = () => {
             alt="Ana Joselyn Alarcon"
             width={50}
             height={50}
-            className="relative z-20 w-[268px] rounded-3xl bg-teal-500 px-7 py-8"
+            className="relative z-20 w-[268px] rounded-sm bg-teal-500 px-7 py-8"
           />
         </div>
         <h1 className="bold-52 lg:bold-88 mt-10 p-9">Ana Joselyn Alarcon</h1>
@@ -56,7 +56,7 @@ const Hero = () => {
       </div>
 
       <div className="relative flex flex-1 items-start">
-        <div className="relative z-20 flex w-[268px] flex-col gap-8 rounded-3xl bg-teal-500 px-7 py-8">
+        <div className="relative z-20 flex w-[268px] flex-col gap-8 rounded-3xl bg-gray-700 px-7 py-8">
           <div className="flex flex-col">
             <div className="flexBetween">
               <p className="regular-16 text-gray-200">How am I?</p>
