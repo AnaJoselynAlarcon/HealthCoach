@@ -12,22 +12,22 @@ const Navbar = () => {
 
       <ul className="hidden h-full gap-12 lg:flex">
         {NAV_LINKS.map((link) => (
-          <Link
-            href={link.href}
-            key={link.key}
-            className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold">
-            {link.label}
-          </Link>
+          <li key={link.key}>
+            <Link href={link.href}>{link.label}</Link>
+          </li>
         ))}
       </ul>
 
-      <div className="lg:flexCenter hidden">
-        <Button
-          type="button"
-          title="Get FREE Discovery Call"
-          icon="/wa_icon.png"
-          variant="btn_dark_green"
-        />
+      <div>
+        <a href="https://wa.me/+14037144087" target="_blank" rel="noreferrer">
+          <Button
+            type="button"
+            title="FREE Discovery Call"
+            icon="/wa_icon.png"
+            variant="btn_dark_green"
+            full
+          />
+        </a>
       </div>
 
       <Image
